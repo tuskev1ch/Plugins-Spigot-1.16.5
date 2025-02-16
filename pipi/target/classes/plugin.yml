@@ -1,0 +1,19 @@
+name: Pipi
+version: 1.0
+main: ru.tuskevich.Pipi
+api-version: 1.16
+author: "tuskevich"
+commands:
+  pipi:
+    description: Делает золотой дождь
+    usage: "Использование: /pipi [игрок]"
+    permission: pipi.use
+    permission-message: "У вас нет прав на использование этой команды!"
+
+permissions:
+  pipi.use:
+    description: Позволяет использовать команду /pipi
+    default: true
+  pipi.others:
+    description: Позволяет использовать команду /pipi на других
+    default: op

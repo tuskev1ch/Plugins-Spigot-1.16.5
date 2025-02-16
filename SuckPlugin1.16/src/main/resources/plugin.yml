@@ -1,0 +1,13 @@
+name: SucksPlugin
+version: 1.0
+main: ru.tuskev1ch.SucksPlugin
+api-version: '1.16'
+author: tuskevich
+description: Плагин на "отсос"
+commands:
+  suck:
+    description: Отправить запрос на сосо
+    usage: /<command> <игрок/accept <игрок>>
+  suck-accept:
+    description: Принять запрос на сосание
+    usage: /<command> <игрок>
